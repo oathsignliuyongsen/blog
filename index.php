@@ -9,59 +9,14 @@
 
     <!-- Bootstrap -->
     <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
-
+    <link href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="//cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style type="text/css">
-        .home-template .main-header {
-            background: no-repeat center 20%;
-            background-size: cover;
-            padding-bottom: 62px;
-            padding-top: 62px;
-        }
-        .main-header {
-            background: #ffffff none repeat scroll 0 0;
-            padding: 42px 0;
-            text-align: center;
-        }
-        .main-header {
-            text-align: center;
-        }
-        .main-navigation {
-            background: #ffffff none repeat scroll 0 0;
-            border-bottom: 2px solid #e1e1e1;
-            border-top: 1px solid #ebebeb;
-            margin-bottom: 35px;
-            text-align: center;
-        }
-        .main-navigation .menu {
-            margin: 0;
-            padding: 0;
-        }
-        .main-navigation .menu li.nav-current {
-            border-bottom: 2px solid #e67e22;
-            margin-bottom: -2px;
-        }
-        .main-navigation .menu li {
-            display: inline-block;
-            list-style: outside none none;
-            position: relative;
-        }
-        .main-navigation .menu li a {
-            color: #505050;
-            display: block;
-            line-height: 4em;
-            padding: 0 21px;
-        }
-        a {
-            color: #e67e22;
-            outline: medium none;
-        }
-    </style>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body class="home-template">
 <header class="main-header" style="background-image: url(http://static.ghostchina.com/image/6/d1/fcb3879e14429d75833a461572e64.jpg)">
@@ -91,6 +46,35 @@
         </div>
     </div>
 </nav>
+<section class="content-wrap">
+    <div class="container">
+        <div class="row">
+            <main class="col-sm-8 main-context">
+                <article id="98" class="post">
+                    <div class="post-head">
+                        <h1 class="post-title"><a href="/moving-to-node-js-v4-lts/">Node.js v4 LTS 成为 Ghost 推荐版本</a></h1>
+                        <div class="post-meta">
+                            <span class="author">作者：<a href="/author/wangsai/">王赛</a></span> •
+                            <time class="post-date" datetime="2016年7月26日星期二上午9点54分" title="2016年7月26日星期二上午9点54分">2016年7月26日</time>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <p>从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托</p>
+                    </div>
+                    <div class="post-permalink">
+                        <a class="btn btn-default" href="/moving-to-node-js-v4-lts/">阅读全文</a>
+                    </div>
+                    <footer class="post-footer clearfix">
+                        <div class="pull-left tag-list">
+                            <i class="fa fa-folder-open-o"></i>
+                        </div>
+                    </footer>
+                </article>
+            </main>
+            <aside class="col-sm-4 sidebar"></aside>
+        </div>
+    </div>
+</section>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="//cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
